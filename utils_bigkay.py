@@ -28,7 +28,7 @@ I'll test it in an online interpreter to ensure this version runs correctly befo
 # Declare a global variable named byline.
 #####################################
 
-byline: str = 'Venirr Analytics: Delivering group'
+byline: str = 'Venirr Analytics: Delivering Professional Insights'
 
 #####################################
 # Define a main() function for this module.
