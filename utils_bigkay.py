@@ -1,4 +1,4 @@
-''' ITERATION 1
+''' ITERATION 2
 
 Module: Venirr Analytics - Reusable Module for My Data Analytics Projects
 
@@ -31,6 +31,14 @@ I'll test it in an online interpreter to ensure this version runs correctly befo
 byline: str = 'Venirr Analytics: Delivering Professional Insights'
 
 #####################################
+# Define the get_byline() Function.
+#####################################
+
+def get_byline() -> str:
+   ''' Return a byline for my analytics projects.'''
+   return byline
+
+#####################################
 # Define a main() function for this module.
 #####################################
 
@@ -45,7 +53,7 @@ byline: str = 'Venirr Analytics: Delivering Professional Insights'
 
 def main() -> None:
     '''Print the byline to the console when this function is called.'''
-    print(byline)
+    print(get_byline())
 
 #####################################
 # Conditional Execution - Only call main() when executing this module as a script.
